@@ -11,38 +11,45 @@ From within the project's root directory, start the game with `$ python buscamin
 ### 1. 
 #### Input
 
+```
 4 4
 *...
 ....
 .*..
 ....
+```
 
 #### Output
 
+```
 *100
 2210
 1*10
 1110
+```
 
 ### 2. 
 #### Input
 
+```
 4 5
 *...*
 ....*
 .*..*
 ....*
+```
 
 #### Output
-
+```
 *1000
 22100
 1*100
 22200
-
+```
 ### 3. 
 #### Input
 
+```
 8 7
 *...*..
 .......
@@ -52,10 +59,11 @@ From within the project's root directory, start the game with `$ python buscamin
 .......
 .......
 *...*..
-
+```
 
 #### Output
 
+```
 *101*10
 2211110
 1*10000
@@ -64,6 +72,6 @@ From within the project's root directory, start the game with `$ python buscamin
 1100000
 0000000
 *202*20
-
+```
 
 
