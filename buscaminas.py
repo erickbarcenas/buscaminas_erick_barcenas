@@ -272,7 +272,15 @@ def main(data_raw):
     print(minesweeper.new_board)
 
 
-data_raw = """
+
+import sys
+
+f = open(sys.argv[1],"r")
+data_raw = f.read()
+f.close()
+print(data_raw)
+
+data_raw_hard = """
         4 4
         *...
         ....
