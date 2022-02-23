@@ -244,6 +244,15 @@ class Minesweeper:
       self.new_board[y][x] = self.new_board[y][x] + 1
 
 
+# Function to convert  
+def listToString(arr): 
+  arr_str = []
+  for col in range(len(arr)):
+    number_str = str(arr[col])
+    arr_str.append(number_str)
+     
+  return ''.join(arr_str)
+
 def main(data_raw):
 
     minesweeper = Minesweeper(data_raw)
@@ -269,7 +278,15 @@ def main(data_raw):
           # print(minesweeper.new_board)  
           # pass
     # print the new result
-    print(minesweeper.new_board)
+
+    board_final = []
+    for row in range(len(minesweeper.new_board)):
+      row_str = listToString(minesweeper.new_board[row])
+      board_final.append(row_str)
+
+    board_final
+
+    print("\n".join(board_final))
 
 
 
@@ -278,7 +295,7 @@ import sys
 f = open(sys.argv[1],"r")
 data_raw = f.read()
 f.close()
-print(data_raw)
+#print(data_raw)
 
 data_raw_hard = """
         4 4
