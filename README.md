@@ -74,4 +74,6 @@ From within the project's root directory, start the game with `$ python buscamin
 *202*20
 ```
 
+## Notebook
+https://colab.research.google.com/drive/1p2td4e-7bK225cVyyZtn4lE3mvJAKMst?usp=sharing
 
